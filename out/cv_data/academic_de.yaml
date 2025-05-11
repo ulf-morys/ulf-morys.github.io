@@ -1,0 +1,25 @@
+academic:
+  - id: "academic1"
+    institution: "London Business School, London, UK"
+    time: "2004 - 2006"
+    details:
+      course: "Master of Business Administration (MBA)"
+      description: |
+        [DE] Specialization in Finance and Strategy.
+        [DE] Graduated with Distinction (Top 10% of class).
+        [DE] Relevant coursework: Corporate Finance, Investment Management, Financial Statement Analysis, Mergers & Acquisitions, Global Economic Environment.
+      diploma: "MBA"
+      grade: "Distinction"
+
+  - id: "academic2"
+    institution: "Universität Mannheim, Mannheim, Deutschland"
+    time: "2000 - 2004"
+    details:
+      course: "Bachelor of Science (BSc) in Betriebswirtschaftslehre"
+      description: |
+        [DE] Major in Finance and Accounting.
+        [DE] Thesis: 'Valuation Methods for Technology Startups'.
+        [DE] Exchange Semester at ESSEC Business School, Paris, France (2003).
+      diploma: "BSc"
+      grade: "1,3 (Sehr Gut)"
+

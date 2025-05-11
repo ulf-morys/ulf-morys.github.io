@@ -1,0 +1,124 @@
+career:
+  - id: "career1"
+    company: "Global Financial Group"
+    logo: "/images/logos/gfg_logo.png"
+    position: "Directeur Financier Senior"
+    duration: "2019 - Présent"
+    details:
+      scope: |
+        [FR] Leading the global finance department with responsibility for financial strategy, planning, analysis, reporting, and compliance across EMEA, APAC, and Americas regions.
+        [FR] Managing a team of 25 finance professionals and overseeing a budget of €120 million.
+        [FR] Member of the Executive Leadership Team, directly reporting to the CFO.
+      achievements:
+        - "[FR] Led a comprehensive finance transformation program resulting in 20% cost reduction and 35% improvement in reporting efficiency."
+        - "[FR] Spearheaded the implementation of SAP S/4HANA Finance across all regions, delivering on time and 5% under budget."
+        - "[FR] Restructured the group's debt portfolio, reducing interest expenses by €3.2 million annually."
+        - "[FR] Established a new FP&A center of excellence that improved forecast accuracy from ±15% to ±3%."
+      star_examples:
+        - situation: "[FR] The company was experiencing significant cash flow challenges due to rapid expansion and inefficient working capital management."
+          target: "[FR] Improve cash flow position by €25 million within 12 months without impacting growth initiatives."
+          actions: |
+            [FR] Conducted a comprehensive working capital analysis to identify key improvement areas.
+            [FR] Implemented new accounts receivable processes, reducing DSO from 65 to 42 days.
+            [FR] Renegotiated payment terms with top 50 suppliers.
+            [FR] Introduced a new cash forecasting model with weekly monitoring and accountability.
+          result: "[FR] Achieved €32 million improvement in cash flow within 10 months, exceeding target by 28%. Credit rating improved from BBB to A-."
+        - situation: "[FR] Lack of standardized financial processes across regions was causing reporting delays and compliance risks."
+          target: "[FR] Standardize 90% of financial processes globally and reduce monthly closing time from 15 to 5 days."
+          actions: |
+            [FR] Established a global process standardization team with representatives from each region.
+            [FR] Documented and redesigned core financial processes using Lean Six Sigma methodology.
+            [FR] Implemented automated workflows and controls in the SAP environment.
+            [FR] Developed comprehensive training programs for finance staff across all regions.
+          result: "[FR] Achieved 95% process standardization and reduced closing time to 4 days. Compliance issues decreased by 80% and audit costs reduced by €450,000 annually."
+
+  - id: "career2"
+    company: "European Investment Bank"
+    logo: "/images/logos/eib_logo.png"
+    position: "Directeur Financier, Division Banque d'Entreprise"
+    duration: "2015 - 2019"
+    details:
+      scope: |
+        [FR] Directed all financial operations for the Corporate Banking Division with €8 billion in assets.
+        [FR] Led a team of 15 finance professionals responsible for financial planning, analysis, reporting, and risk management.
+        [FR] Member of the division's management committee, contributing to strategic decision-making.
+      achievements:
+        - "[FR] Improved division profitability by 18% through strategic cost management and revenue enhancement initiatives."
+        - "[FR] Developed and implemented a new risk-adjusted performance measurement framework that optimized capital allocation."
+        - "[FR] Led the division's regulatory compliance program for Basel III implementation, achieving full compliance ahead of schedule."
+        - "[FR] Redesigned the management reporting system, reducing report production time by 60% while enhancing analytical capabilities."
+      star_examples:
+        - situation: "[FR] The division was underperforming compared to peers with ROE 3% below industry average."
+          target: "[FR] Increase ROE by at least 3 percentage points within 24 months to match industry benchmarks."
+          actions: |
+            [FR] Conducted a comprehensive profitability analysis by product, client segment, and region.
+            [FR] Developed a portfolio optimization strategy focusing on high-return segments.
+            [FR] Implemented a new pricing model incorporating risk-adjusted return metrics.
+            [FR] Established quarterly performance reviews with clear accountability for financial targets.
+          result: "[FR] Increased ROE by 4.2 percentage points within 18 months, exceeding industry average by 1.2%. Division became the bank's top performer in terms of profitability."
+        - situation: "[FR] Increasing regulatory requirements were creating significant compliance costs and operational complexity."
+          target: "[FR] Reduce compliance costs by 15% while maintaining full regulatory adherence."
+          actions: |
+            [FR] Established a cross-functional team to review and streamline compliance processes.
+            [FR] Implemented an integrated GRC (Governance, Risk, and Compliance) platform.
+            [FR] Automated routine compliance reporting and monitoring activities.
+            [FR] Developed a regulatory change management framework to proactively address new requirements.
+          result: "[FR] Reduced compliance costs by 22% while improving regulatory assessment ratings. Approach was adopted as best practice across other divisions."
+
+  - id: "career3"
+    company: "PricewaterhouseCoopers (PwC)"
+    logo: "/images/logos/pwc_logo.png"
+    position: "Manager Senior, Conseil en Services Financiers"
+    duration: "2010 - 2015"
+    details:
+      scope: |
+        [FR] Led complex financial advisory engagements for major banking and insurance clients across Europe.
+        [FR] Managed teams of 5-10 consultants and engagement budgets of up to €2 million.
+        [FR] Specialized in finance transformation, performance improvement, and regulatory compliance.
+      achievements:
+        - "[FR] Generated over €4 million in annual revenue through new client acquisition and existing client expansion."
+        - "[FR] Led a major finance transformation program for a global bank, resulting in €15 million annual cost savings."
+        - "[FR] Developed a proprietary financial performance benchmarking methodology that became a firm-wide standard."
+        - "[FR] Achieved highest client satisfaction ratings in the practice for three consecutive years."
+      star_examples:
+        - situation: "[FR] A major European bank was struggling with post-merger integration of finance functions across 12 countries."
+          target: "[FR] Complete finance integration within 18 months with minimum business disruption and €10 million in synergies."
+          actions: |
+            [FR] Developed a comprehensive integration roadmap with clear milestones and dependencies.
+            [FR] Established a governance structure with dedicated workstreams for key finance areas.
+            [FR] Implemented a standardized operating model with shared service centers in strategic locations.
+            [FR] Created a change management program to address cultural and operational challenges.
+          result: "[FR] Completed integration three months ahead of schedule with €13.5 million in realized synergies. Client CFO recognized the project as 'best in class' integration."
+        - situation: "[FR] An insurance client was facing significant challenges in implementing Solvency II requirements."
+          target: "[FR] Achieve full Solvency II compliance within 12 months while minimizing implementation costs."
+          actions: |
+            [FR] Conducted a gap analysis against all Solvency II pillars and requirements.
+            [FR] Developed a prioritized implementation plan focusing on high-impact, high-risk areas.
+            [FR] Designed and implemented new financial reporting and risk management processes.
+            [FR] Created a comprehensive training program for finance and risk staff.
+          result: "[FR] Client achieved full compliance two months ahead of deadline with implementation costs 25% below industry average. Regulator cited several aspects as exemplary practices."
+
+  - id: "career4"
+    company: "Deutsche Bank"
+    logo: "/images/logos/db_logo.png"
+    position: "Vice President, Corporate Finance"
+    duration: "2006 - 2010"
+    details:
+      scope: |
+        [FR] Responsible for financial planning, analysis, and reporting for the Corporate Banking division in Germany and Austria.
+        [FR] Led a team of 8 financial analysts and managed relationships with key stakeholders.
+        [FR] Provided financial advisory support for strategic initiatives and investment decisions.
+      achievements:
+        - "[FR] Redesigned the division's planning and forecasting process, improving accuracy by 40%."
+        - "[FR] Led the financial due diligence for three strategic acquisitions with a combined value of €750 million."
+        - "[FR] Implemented a new performance management framework that aligned incentives with shareholder value creation."
+        - "[FR] Developed innovative financial models that supported the launch of two new product lines generating €25 million in annual revenue."
+      star_examples:
+        - situation: "[FR] The division lacked transparency into product profitability, leading to suboptimal resource allocation."
+          target: "[FR] Develop and implement a product profitability measurement system within 6 months."
+          actions: |
+            [FR] Designed an activity-based costing methodology tailored to banking products.
+            [FR] Collaborated with IT to develop automated data extraction and allocation processes.
+            [FR] Created interactive dashboards for management to analyze profitability dimensions.
+            [FR] Established quarterly product portfolio reviews based on profitability metrics.
+          result: "[FR] Identified €18 million in profit improvement opportunities through portfolio optimization. Management decisions became more data-driven, leading to 15% improvement in overall division profitability."

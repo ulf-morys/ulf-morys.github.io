@@ -1,0 +1,72 @@
+skills:
+  hard:
+    title: "[FR] Compétences Techniques"
+    items:
+      - name: "[FR] Stratégie & Planification Financière"
+        level: 6
+        type: "stars"
+      - name: "[FR] Modélisation Financière & Évaluation"
+        level: 6
+        type: "stars"
+      - name: "[FR] Fusions & Acquisitions (M&A)"
+        level: 5
+        type: "stars"
+      - name: "[FR] Budgétisation d'Investissement & Analyse d'Investissement"
+        level: 95
+        type: "percentage"
+      - name: "[FR] Reporting Financier (IFRS, HGB, US GAAP)"
+        level: 98
+        type: "percentage"
+      - name: "[FR] Gestion de Trésorerie"
+        level: 90
+        type: "percentage"
+      - name: "[FR] Gestion des Risques & Conformité"
+        level: 5
+        type: "stars"
+      - name: "[FR] Transformation Financière & Optimisation des Processus"
+        level: 6
+        type: "stars"
+
+  soft:
+    title: "[FR] Compétences Comportementales"
+    items:
+      - name: "[FR] Leadership & Développement d'Équipe"
+        level: 6
+        type: "stars"
+      - name: "[FR] Pensée Stratégique & Prise de Décision"
+        level: 95
+        type: "percentage"
+      - name: "[FR] Communication & Présentation (Niveau C)"
+        level: 6
+        type: "stars"
+      - name: "[FR] Négociation & Gestion des Parties Prenantes"
+        level: 90
+        type: "percentage"
+      - name: "[FR] Résolution de Problèmes & Compétences Analytiques"
+        level: 5
+        type: "stars"
+      - name: "[FR] Gestion du Changement"
+        level: 85
+        type: "percentage"
+
+  it:
+    title: "[FR] Compétences Informatiques"
+    items:
+      - name: "[FR] SAP S/4HANA Finance / FICO"
+        level: 6
+        type: "stars"
+      - name: "[FR] Microsoft Excel Avancé (incl. VBA, Power Query)"
+        level: 6
+        type: "stars"
+      - name: "[FR] Outils BI (Power BI, Tableau)"
+        level: 85
+        type: "percentage"
+      - name: "[FR] Implémentation & Gestion de Systèmes ERP"
+        level: 5
+        type: "stars"
+      - name: "[FR] Logiciels de Planification Financière (ex: Anaplan, Hyperion)"
+        level: 80
+        type: "percentage"
+      - name: "[FR] Terminal Bloomberg"
+        level: 75
+        type: "percentage"

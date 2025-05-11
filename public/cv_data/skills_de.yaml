@@ -1,0 +1,72 @@
+skills:
+  hard:
+    title: "[DE] Hard Skills"
+    items:
+      - name: "[DE] Financial Strategy & Planning"
+        level: 6
+        type: "stars"
+      - name: "[DE] Financial Modeling & Valuation"
+        level: 6
+        type: "stars"
+      - name: "[DE] Mergers & Acquisitions (M&A)"
+        level: 5
+        type: "stars"
+      - name: "[DE] Capital Budgeting & Investment Analysis"
+        level: 95
+        type: "percentage"
+      - name: "[DE] Financial Reporting (IFRS, HGB, US GAAP)"
+        level: 98
+        type: "percentage"
+      - name: "[DE] Treasury & Cash Management"
+        level: 90
+        type: "percentage"
+      - name: "[DE] Risk Management & Compliance"
+        level: 5
+        type: "stars"
+      - name: "[DE] Finance Transformation & Process Optimization"
+        level: 6
+        type: "stars"
+
+  soft:
+    title: "[DE] Soft Skills"
+    items:
+      - name: "[DE] Leadership & Team Development"
+        level: 6
+        type: "stars"
+      - name: "[DE] Strategic Thinking & Decision Making"
+        level: 95
+        type: "percentage"
+      - name: "[DE] Communication & Presentation (C-Level)"
+        level: 6
+        type: "stars"
+      - name: "[DE] Negotiation & Stakeholder Management"
+        level: 90
+        type: "percentage"
+      - name: "[DE] Problem Solving & Analytical Skills"
+        level: 5
+        type: "stars"
+      - name: "[DE] Change Management"
+        level: 85
+        type: "percentage"
+
+  it:
+    title: "[DE] IT Skills"
+    items:
+      - name: "[DE] SAP S/4HANA Finance / FICO"
+        level: 6
+        type: "stars"
+      - name: "[DE] Advanced Microsoft Excel (incl. VBA, Power Query)"
+        level: 6
+        type: "stars"
+      - name: "[DE] BI Tools (Power BI, Tableau)"
+        level: 85
+        type: "percentage"
+      - name: "[DE] ERP Systems Implementation & Management"
+        level: 5
+        type: "stars"
+      - name: "[DE] Financial Planning Software (e.g., Anaplan, Hyperion)"
+        level: 80
+        type: "percentage"
+      - name: "[DE] Bloomberg Terminal"
+        level: 75
+        type: "percentage"

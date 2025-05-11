@@ -1,0 +1,49 @@
+ui_text:
+  # Navigation / General
+  toggle_language: "Language"
+  home: "Home"
+
+  # Main Page Sections
+  career_title: "Career History"
+  academic_title: "Academic Background"
+  skills_title: "Skills & Expertise"
+  timeline_link_text: "View Full Timeline"
+  contact_title: "Contact"
+
+  # Carousel
+  view_details: "View Details"
+
+  # Detail Pages
+  career_details_title: "Career Details"
+  academic_details_title: "Academic Details"
+  company: "Company"
+  position: "Position"
+  duration: "Duration"
+  tenure: "Tenure"
+  scope_responsibilities: "Scope & Responsibilities"
+  achievements: "Key Achievements"
+  star_examples: "Achievement Highlights (STAR)"
+  institution: "Institution"
+  time: "Time"
+  course_study: "Course of Study"
+  diploma_grade: "Diploma & Grade"
+  situation: "Situation"
+  target: "Target"
+  actions: "Actions"
+  result: "Result"
+
+  # Skills Section
+  # Titles defined in skills_{lang}.yaml
+
+  # Footer
+  contact_info: "Contact Information"
+  feedback_form_title: "Send Feedback"
+  feedback_name_label: "Name"
+  feedback_email_label: "Email"
+  feedback_message_label: "Message"
+  feedback_send_button: "Send Message"
+  feedback_success_message: "Thank you! Your message has been sent."
+  feedback_error_message: "Sorry, there was an error sending your message. Please try again later."
+
+  # Timeline Page
+  timeline_page_title: "Career Timeline"

@@ -1,0 +1,72 @@
+skills:
+  hard:
+    title: "Hard Skills"
+    items:
+      - name: "Financial Strategy & Planning"
+        level: 6
+        type: "stars"
+      - name: "Financial Modeling & Valuation"
+        level: 6
+        type: "stars"
+      - name: "Mergers & Acquisitions (M&A)"
+        level: 5
+        type: "stars"
+      - name: "Capital Budgeting & Investment Analysis"
+        level: 95
+        type: "percentage"
+      - name: "Financial Reporting (IFRS, HGB, US GAAP)"
+        level: 98
+        type: "percentage"
+      - name: "Treasury & Cash Management"
+        level: 90
+        type: "percentage"
+      - name: "Risk Management & Compliance"
+        level: 5
+        type: "stars"
+      - name: "Finance Transformation & Process Optimization"
+        level: 6
+        type: "stars"
+
+  soft:
+    title: "Soft Skills"
+    items:
+      - name: "Leadership & Team Development"
+        level: 6
+        type: "stars"
+      - name: "Strategic Thinking & Decision Making"
+        level: 95
+        type: "percentage"
+      - name: "Communication & Presentation (C-Level)"
+        level: 6
+        type: "stars"
+      - name: "Negotiation & Stakeholder Management"
+        level: 90
+        type: "percentage"
+      - name: "Problem Solving & Analytical Skills"
+        level: 5
+        type: "stars"
+      - name: "Change Management"
+        level: 85
+        type: "percentage"
+
+  it:
+    title: "IT Skills"
+    items:
+      - name: "SAP S/4HANA Finance / FICO"
+        level: 6
+        type: "stars"
+      - name: "Advanced Microsoft Excel (incl. VBA, Power Query)"
+        level: 6
+        type: "stars"
+      - name: "BI Tools (Power BI, Tableau)"
+        level: 85
+        type: "percentage"
+      - name: "ERP Systems Implementation & Management"
+        level: 5
+        type: "stars"
+      - name: "Financial Planning Software (e.g., Anaplan, Hyperion)"
+        level: 80
+        type: "percentage"
+      - name: "Bloomberg Terminal"
+        level: 75
+        type: "percentage"

@@ -1,0 +1,49 @@
+ui_text:
+  # Navigation / General
+  toggle_language: "Langue"
+  home: "Accueil"
+
+  # Main Page Sections
+  career_title: "Parcours Professionnel"
+  academic_title: "Formation Académique"
+  skills_title: "Compétences & Expertise"
+  timeline_link_text: "Voir la chronologie complète"
+  contact_title: "Contact"
+
+  # Carousel
+  view_details: "Voir les détails"
+
+  # Detail Pages
+  career_details_title: "Détails de Carrière"
+  academic_details_title: "Détails Académiques"
+  company: "Entreprise"
+  position: "Poste"
+  duration: "Durée"
+  tenure: "Période d'emploi"
+  scope_responsibilities: "Périmètre & Responsabilités"
+  achievements: "Réalisations Clés"
+  star_examples: "Exemples de Réalisations (STAR)"
+  institution: "Institution"
+  time: "Période"
+  course_study: "Cursus"
+  diploma_grade: "Diplôme & Note"
+  situation: "Situation"
+  target: "Objectif"
+  actions: "Actions"
+  result: "Résultat"
+
+  # Skills Section
+  # Titles defined in skills_{lang}.yaml
+
+  # Footer
+  contact_info: "Coordonnées"
+  feedback_form_title: "Envoyer un Feedback"
+  feedback_name_label: "Nom"
+  feedback_email_label: "Email"
+  feedback_message_label: "Message"
+  feedback_send_button: "Envoyer le Message"
+  feedback_success_message: "Merci ! Votre message a été envoyé."
+  feedback_error_message: "Désolé, une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
+
+  # Timeline Page
+  timeline_page_title: "Chronologie de Carrière"

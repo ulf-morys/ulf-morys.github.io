@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 215 100% 12%;
+  --foreground: 210 40% 98%;
+  
+  --card: 215 100% 12%;
+  --card-foreground: 210 40% 98%;
+  
+  --popover: 215 100% 12%;
+  --popover-foreground: 210 40% 98%;
+  
+  --primary: 210 100% 45%;
+  --primary-foreground: 210 40% 98%;
+  
+  --secondary: 210 100% 30%;
+  --secondary-foreground: 210 40% 98%;
+  
+  --muted: 215 25% 27%;
+  --muted-foreground: 215 20% 65%;
+  
+  --accent: 210 100% 45%;
+  --accent-foreground: 210 40% 98%;
+  
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  
+  --border: 215 25% 27%;
+  --input: 215 25% 27%;
+  --ring: 215 100% 20%;
+  
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 215 100% 12%;
+  --foreground: 210 40% 98%;
+  
+  --card: 215 100% 12%;
+  --card-foreground: 210 40% 98%;
+  
+  --popover: 215 100% 12%;
+  --popover-foreground: 210 40% 98%;
+  
+  --primary: 210 100% 45%;
+  --primary-foreground: 210 40% 98%;
+  
+  --secondary: 210 100% 30%;
+  --secondary-foreground: 210 40% 98%;
+  
+  --muted: 215 25% 27%;
+  --muted-foreground: 215 20% 65%;
+  
+  --accent: 210 100% 45%;
+  --accent-foreground: 210 40% 98%;
+  
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  
+  --border: 215 25% 27%;
+  --input: 215 25% 27%;
+  --ring: 215 100% 20%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom styles for CV website */
+.carousel-container {
+  @apply relative overflow-hidden;
+}
+
+.carousel-item {
+  @apply bg-midnight-ocean-2 rounded-lg shadow-lg p-6 transition-all duration-300;
+}
+
+.carousel-item:hover {
+  @apply bg-midnight-ocean-3 transform scale-105;
+}
+
+.skill-stars {
+  @apply flex space-x-1;
+}
+
+.skill-star {
+  @apply text-midnight-ocean-5;
+}
+
+.skill-star-empty {
+  @apply text-gray-400;
+}
+
+.skill-percentage-container {
+  @apply w-full bg-gray-200 rounded-full h-2.5;
+}
+
+.skill-percentage-bar {
+  @apply bg-midnight-ocean-5 h-2.5 rounded-full;
+}
+
+.timeline-container {
+  @apply relative;
+}
+
+.timeline-line {
+  @apply absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-midnight-ocean-4;
+}
+
+.timeline-item {
+  @apply relative flex items-center mb-8;
+}
+
+.timeline-item-content {
+  @apply bg-midnight-ocean-2 rounded-lg shadow-lg p-6 w-5/12;
+}
+
+.timeline-item-dot {
+  @apply absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-midnight-ocean-5;
+}
+
+.language-toggle {
+  @apply fixed top-4 right-4 z-50;
+}
+
+.language-button {
+  @apply px-3 py-1 rounded-md bg-midnight-ocean-3 text-white hover:bg-midnight-ocean-4 transition-colors;
+}
+
+.language-button.active {
+  @apply bg-midnight-ocean-5;
+}
+
+.feedback-form {
+  @apply bg-midnight-ocean-2 rounded-lg shadow-lg p-6;
+}
+
+.feedback-input {
+  @apply w-full p-2 rounded-md border border-midnight-ocean-3 bg-midnight-ocean-1 text-white;
+}
+
+.feedback-button {
+  @apply px-4 py-2 bg-midnight-ocean-4 text-white rounded-md hover:bg-midnight-ocean-5 transition-colors;
+}
