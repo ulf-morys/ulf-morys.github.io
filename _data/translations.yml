@@ -8,7 +8,9 @@ en:
     soft: "Soft Skills"
     hard: "Hard Skills"
     it: "IT Skills"
-    language: "Language Skills" # New translation
+    language: "Language Skills"
+  projects: # New section for project title
+    title: "Key Projects"
   contact:
     title: "Contact Information"
     send: "Send Message"
@@ -23,7 +25,9 @@ de:
     soft: "Soft Skills"
     hard: "Hard Skills"
     it: "IT Skills"
-    language: "Sprachkenntnisse" # New translation
+    language: "Sprachkenntnisse"
+  projects: # New section for project title
+    title: "Schlüsselprojekte"
   contact:
     title: "Kontaktinformationen"
     send: "Nachricht senden"
@@ -38,7 +42,9 @@ fr:
     soft: "Compétences douces"
     hard: "Compétences dures"
     it: "Compétences informatiques"
-    language: "Compétences linguistiques" # New translation
+    language: "Compétences linguistiques"
+  projects: # New section for project title
+    title: "Projets Clés"
   contact:
     title: "Informations de contact"
     send: "Envoyer le message"
