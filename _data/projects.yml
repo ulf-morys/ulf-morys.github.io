@@ -1,0 +1,82 @@
+---
+projects:
+  en:
+    - title: "Global Financial Systems Integration"
+      company: "MegaCorp International"
+      period: "2019-2021"
+      description: "Led the integration of financial systems across 12 countries"
+      achievements:
+        - "Reduced operational costs by 35% through system consolidation"
+        - "Implemented automated reporting saving 120 man-hours monthly"
+        - "Successfully migrated $2B worth of transactions to new platform"
+      technologies:
+        - "SAP Finance"
+        - "Oracle Financials"
+        - "Power BI"
+      
+    - title: "Digital Transformation Initiative"
+      company: "Finance Solutions Corp"
+      period: "2017-2019"
+      description: "Spearheaded digital transformation of legacy financial processes"
+      achievements:
+        - "Achieved 99.9% accuracy in automated reconciliation processes"
+        - "Reduced manual data entry by 85%"
+        - "Implemented blockchain-based transaction verification"
+      technologies:
+        - "Hyperledger Fabric"
+        - "Microsoft Azure"
+        - "Tableau"
+
+  de:
+    - title: "Integration Globaler Finanzsysteme"
+      company: "MegaCorp International"
+      period: "2019-2021"
+      description: "Leitung der Integration von Finanzsystemen in 12 Ländern"
+      achievements:
+        - "Reduzierung der Betriebskosten um 35% durch Systemkonsolidierung"
+        - "Implementierung automatisierter Berichterstattung mit monatlicher Einsparung von 120 Arbeitsstunden"
+        - "Erfolgreiche Migration von Transaktionen im Wert von 2 Mrd. €"
+      technologies:
+        - "SAP Finance"
+        - "Oracle Financials"
+        - "Power BI"
+
+    - title: "Digitale Transformationsinitiative"
+      company: "Finance Solutions Corp"
+      period: "2017-2019"
+      description: "Führung der digitalen Transformation von Legacy-Finanzprozessen"
+      achievements:
+        - "99,9% Genauigkeit bei automatisierten Abstimmungsprozessen erreicht"
+        - "Reduzierung der manuellen Dateneingabe um 85%"
+        - "Implementierung der Blockchain-basierten Transaktionsverifizierung"
+      technologies:
+        - "Hyperledger Fabric"
+        - "Microsoft Azure"
+        - "Tableau"
+
+  fr:
+    - title: "Intégration des Systèmes Financiers Mondiaux"
+      company: "MegaCorp International"
+      period: "2019-2021"
+      description: "Direction de l'intégration des systèmes financiers dans 12 pays"
+      achievements:
+        - "Réduction des coûts opérationnels de 35% grâce à la consolidation des systèmes"
+        - "Mise en place de rapports automatisés économisant 120 heures-homme par mois"
+        - "Migration réussie de transactions d'une valeur de 2 milliards €"
+      technologies:
+        - "SAP Finance"
+        - "Oracle Financials"
+        - "Power BI"
+
+    - title: "Initiative de Transformation Numérique"
+      company: "Finance Solutions Corp"
+      period: "2017-2019"
+      description: "Direction de la transformation numérique des processus financiers existants"
+      achievements:
+        - "Obtention d'une précision de 99,9% dans les processus de rapprochement automatisés"
+        - "Réduction de 85% de la saisie manuelle des données"
+        - "Mise en œuvre de la vérification des transactions basée sur la blockchain"
+      technologies:
+        - "Hyperledger Fabric"
+        - "Microsoft Azure"
+        - "Tableau"

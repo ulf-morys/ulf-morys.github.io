@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://yourdomain.github.io/sitemap.xml
+
+# Disallow access to data files
+Disallow: /_data/
+Disallow: /assets/js/
+Disallow: /assets/css/

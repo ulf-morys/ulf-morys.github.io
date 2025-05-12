@@ -1,0 +1,122 @@
+soft_skills:
+  en:
+    - name: Leadership
+      proficiency: 5
+      description: Proven ability to lead and motivate teams of 20+ professionals
+    - name: Strategic Planning
+      proficiency: 6
+      description: Expert in developing and executing long-term financial strategies
+    - name: Communication
+      proficiency: 6
+      description: Excellent verbal and written communication skills
+    - name: Negotiation
+      proficiency: 5
+      description: Strong negotiation and stakeholder management abilities
+  de:
+    - name: Führung
+      proficiency: 5
+      description: Bewährte Fähigkeit, Teams von über 20 Fachkräften zu führen
+    - name: Strategische Planung
+      proficiency: 6
+      description: Experte für die Entwicklung und Umsetzung langfristiger Finanzstrategien
+    - name: Kommunikation
+      proficiency: 6
+      description: Ausgezeichnete mündliche und schriftliche Kommunikationsfähigkeiten
+    - name: Verhandlung
+      proficiency: 5
+      description: Starke Verhandlungs- und Stakeholder-Management-Fähigkeiten
+  fr:
+    - name: Leadership
+      proficiency: 5
+      description: Capacité éprouvée à diriger des équipes de plus de 20 professionnels
+    - name: Planification Stratégique
+      proficiency: 6
+      description: Expert en développement et exécution de stratégies financières
+    - name: Communication
+      proficiency: 6
+      description: Excellentes compétences en communication orale et écrite
+    - name: Négociation
+      proficiency: 5
+      description: Fortes capacités de négociation et de gestion des parties prenantes
+
+hard_skills:
+  en:
+    - name: Financial Analysis
+      proficiency: 6
+      description: Expert in complex financial modeling and analysis
+    - name: Risk Management
+      proficiency: 5
+      description: Strong experience in enterprise risk management
+    - name: Budgeting
+      proficiency: 6
+      description: Advanced budgeting and forecasting capabilities
+    - name: M&A
+      proficiency: 5
+      description: Extensive experience in mergers and acquisitions
+  de:
+    - name: Finanzanalyse
+      proficiency: 6
+      description: Experte für komplexe Finanzmodellierung und -analyse
+    - name: Risikomanagement
+      proficiency: 5
+      description: Umfangreiche Erfahrung im Unternehmensrisikomanagement
+    - name: Budgetierung
+      proficiency: 6
+      description: Fortgeschrittene Budgetierungs- und Prognosefähigkeiten
+    - name: M&A
+      proficiency: 5
+      description: Umfassende Erfahrung in Fusionen und Übernahmen
+  fr:
+    - name: Analyse Financière
+      proficiency: 6
+      description: Expert en modélisation et analyse financière complexe
+    - name: Gestion des Risques
+      proficiency: 5
+      description: Solide expérience en gestion des risques d'entreprise
+    - name: Budgétisation
+      proficiency: 6
+      description: Capacités avancées en budgétisation et prévision
+    - name: F&A
+      proficiency: 5
+      description: Vaste expérience en fusions et acquisitions
+
+it_skills:
+  en:
+    - name: SAP ERP
+      proficiency: 5
+      description: Advanced user of SAP financial modules
+    - name: Microsoft Excel
+      proficiency: 6
+      description: Expert level in financial modeling and VBA
+    - name: Bloomberg Terminal
+      proficiency: 4
+      description: Proficient in financial market analysis tools
+    - name: Power BI
+      proficiency: 5
+      description: Advanced data visualization and reporting
+  de:
+    - name: SAP ERP
+      proficiency: 5
+      description: Fortgeschrittener Benutzer von SAP-Finanzmodulen
+    - name: Microsoft Excel
+      proficiency: 6
+      description: Expertenniveau in Finanzmodellierung und VBA
+    - name: Bloomberg Terminal
+      proficiency: 4
+      description: Versiert in Finanzmarktanalyse-Tools
+    - name: Power BI
+      proficiency: 5
+      description: Fortgeschrittene Datenvisualisierung und Berichterstattung
+  fr:
+    - name: SAP ERP
+      proficiency: 5
+      description: Utilisateur avancé des modules financiers SAP
+    - name: Microsoft Excel
+      proficiency: 6
+      description: Niveau expert en modélisation financière et VBA
+    - name: Bloomberg Terminal
+      proficiency: 4
+      description: Maîtrise des outils d'analyse des marchés financiers
+    - name: Power BI
+      proficiency: 5
+      description: Visualisation et reporting de données avancés

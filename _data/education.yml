@@ -1,0 +1,78 @@
+education:
+  en:
+    - institution: "London School of Economics"
+      location: "London, UK"
+      degree: "Master of Science in Financial Management"
+      period:
+        start: "2008"
+        end: "2010"
+      description: "Specialized in Corporate Finance and Investment Management"
+      achievements:
+        - "Graduated with Distinction"
+        - "Research thesis on 'Impact of Digital Transformation on Financial Services'"
+        - "President of Finance Society"
+      grade: "First Class Honours"
+
+    - institution: "University of Manchester"
+      location: "Manchester, UK"
+      degree: "Bachelor of Science in Economics"
+      period:
+        start: "2004"
+        end: "2008"
+      description: "Focus on Macroeconomics and Financial Markets"
+      achievements:
+        - "Dean's List for Academic Excellence"
+        - "Economics Department Student Representative"
+      grade: "2:1 Honours"
+
+  de:
+    - institution: "London School of Economics"
+      location: "London, Großbritannien"
+      degree: "Master of Science in Finanzmanagement"
+      period:
+        start: "2008"
+        end: "2010"
+      description: "Spezialisierung in Unternehmensfinanzierung und Investmentmanagement"
+      achievements:
+        - "Mit Auszeichnung abgeschlossen"
+        - "Forschungsarbeit über 'Auswirkungen der digitalen Transformation auf Finanzdienstleistungen'"
+        - "Präsident der Finance Society"
+      grade: "Mit Auszeichnung"
+
+    - institution: "University of Manchester"
+      location: "Manchester, Großbritannien"
+      degree: "Bachelor of Science in Wirtschaftswissenschaften"
+      period:
+        start: "2004"
+        end: "2008"
+      description: "Schwerpunkt Makroökonomie und Finanzmärkte"
+      achievements:
+        - "Auszeichnung für akademische Leistungen"
+        - "Studentenvertreter der Wirtschaftsfakultät"
+      grade: "Sehr gut"
+
+  fr:
+    - institution: "London School of Economics"
+      location: "Londres, Royaume-Uni"
+      degree: "Master en Gestion Financière"
+      period:
+        start: "2008"
+        end: "2010"
+      description: "Spécialisation en Finance d'Entreprise et Gestion des Investissements"
+      achievements:
+        - "Diplômé avec Distinction"
+        - "Thèse sur 'L'Impact de la Transformation Numérique sur les Services Financiers'"
+        - "Président de la Société de Finance"
+      grade: "Mention Très Bien"
+
+    - institution: "University of Manchester"
+      location: "Manchester, Royaume-Uni"
+      degree: "Licence en Sciences Économiques"
+      period:
+        start: "2004"
+        end: "2008"
+      description: "Concentration en Macroéconomie et Marchés Financiers"
+      achievements:
+        - "Liste du Doyen pour l'Excellence Académique"
+        - "Représentant des Étudiants du Département d'Économie"
+      grade: "Mention Bien"

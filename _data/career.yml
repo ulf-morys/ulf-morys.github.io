@@ -1,0 +1,110 @@
+career_positions:
+  - company: "Global Finance Corp"
+    logo: "assets/images/gfc-logo.png"
+    position:
+      en: "Senior Finance Director"
+      de: "Senior Finanzdirektor"
+      fr: "Directeur Financier Senior"
+    tenure:
+      start: "2019-01"
+      end: "present"
+    location:
+      en: "Frankfurt, Germany"
+      de: "Frankfurt, Deutschland"
+      fr: "Francfort, Allemagne"
+    scope:
+      en: "Leading financial strategy and operations for EMEA region, managing team of 50+ finance professionals"
+      de: "Leitung der Finanzstrategie und -operationen für die EMEA-Region, Führung eines Teams von über 50 Finanzexperten"
+      fr: "Direction de la stratégie financière et des opérations pour la région EMEA, gestion d'une équipe de plus de 50 professionnels de la finance"
+    achievements:
+      en:
+        - "Implemented new financial reporting system reducing monthly close time by 40%"
+        - "Led successful merger integration resulting in €50M annual cost savings"
+        - "Restructured regional treasury operations improving cash flow by 25%"
+      de:
+        - "Implementierung eines neuen Finanzberichtssystems mit 40% schnellerem Monatsabschluss"
+        - "Erfolgreiche Fusionsintegration mit jährlichen Kosteneinsparungen von 50 Mio. €"
+        - "Restrukturierung des regionalen Treasury mit 25% verbessertem Cashflow"
+      fr:
+        - "Mise en place d'un nouveau système de reporting financier réduisant de 40% le temps de clôture mensuelle"
+        - "Direction réussie de l'intégration post-fusion générant 50M€ d'économies annuelles"
+        - "Restructuration des opérations de trésorerie régionales améliorant le flux de trésorerie de 25%"
+    star_examples:
+      - situation:
+          en: "Post-merger integration challenges with incompatible financial systems"
+          de: "Herausforderungen bei der Post-Merger-Integration mit inkompatiblen Finanzsystemen"
+          fr: "Défis d'intégration post-fusion avec des systèmes financiers incompatibles"
+        task:
+          en: "Harmonize financial operations across 12 countries within 6 months"
+          de: "Harmonisierung der Finanzoperationen in 12 Ländern innerhalb von 6 Monaten"
+          fr: "Harmoniser les opérations financières dans 12 pays en 6 mois"
+        action:
+          en: "Developed and executed comprehensive integration roadmap with phased approach"
+          de: "Entwicklung und Umsetzung einer umfassenden Integrations-Roadmap mit Phasenansatz"
+          fr: "Développement et exécution d'une feuille de route d'intégration complète par phases"
+        result:
+          en: "Completed integration 2 months ahead of schedule with 20% under budget"
+          de: "Integration 2 Monate vor Plan und 20% unter Budget abgeschlossen"
+          fr: "Intégration terminée avec 2 mois d'avance et 20% sous le budget"
+
+  - company: "Investment Bank International"
+    logo: "assets/images/ibi-logo.png"
+    position:
+      en: "Head of Financial Planning & Analysis"
+      de: "Leiter Finanzplanung & Analyse"
+      fr: "Chef de la Planification et de l'Analyse Financière"
+    tenure:
+      start: "2015-03"
+      end: "2018-12"
+    location:
+      en: "London, UK"
+      de: "London, UK"
+      fr: "Londres, Royaume-Uni"
+    scope:
+      en: "Directed FP&A function for European operations with €2B annual revenue"
+      de: "Leitung der FP&A-Funktion für europäische Geschäfte mit 2 Mrd. € Jahresumsatz"
+      fr: "Direction de la fonction FP&A pour les opérations européennes avec 2Mrd€ de revenus annuels"
+    achievements:
+      en:
+        - "Developed 5-year strategic financial plan achieving 15% YoY growth"
+        - "Implemented rolling forecast model improving accuracy by 30%"
+        - "Led cost optimization initiative saving €10M annually"
+      de:
+        - "Entwicklung eines 5-Jahres-Strategieplans mit 15% jährlichem Wachstum"
+        - "Einführung eines Rolling-Forecast-Modells mit 30% verbesserter Genauigkeit"
+        - "Leitung der Kostenoptimierungsinitiative mit jährlich 10 Mio. € Einsparungen"
+      fr:
+        - "Développement d'un plan financier stratégique sur 5 ans atteignant 15% de croissance annuelle"
+        - "Mise en place d'un modèle de prévision continue améliorant la précision de 30%"
+        - "Direction de l'initiative d'optimisation des coûts économisant 10M€ par an"
+
+  - company: "Tech Financial Services"
+    logo: "assets/images/tfs-logo.png"
+    position:
+      en: "Senior Financial Manager"
+      de: "Senior Finanzmanager"
+      fr: "Manager Financier Senior"
+    tenure:
+      start: "2012-06"
+      end: "2015-02"
+    location:
+      en: "Berlin, Germany"
+      de: "Berlin, Deutschland"
+      fr: "Berlin, Allemagne"
+    scope:
+      en: "Managed financial operations for fast-growing fintech division"
+      de: "Management der Finanzoperationen für schnell wachsende Fintech-Division"
+      fr: "Gestion des opérations financières pour une division fintech en forte croissance"
+    achievements:
+      en:
+        - "Scaled financial operations during 300% team growth"
+        - "Established new budgeting process reducing variance by 25%"
+        - "Led successful Series C funding round raising €75M"
+      de:
+        - "Skalierung der Finanzoperationen während 300% Teamwachstum"
+        - "Etablierung neuer Budgetierungsprozesse mit 25% reduzierter Varianz"
+        - "Erfolgreiche Leitung der Series C Finanzierungsrunde mit 75 Mio. €"
+      fr:
+        - "Adaptation des opérations financières pendant une croissance d'équipe de 300%"
+        - "Établissement d'un nouveau processus budgétaire réduisant la variance de 25%"
+        - "Direction réussie de la levée de fonds Série C de 75M€"

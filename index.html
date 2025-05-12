@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional CV - Dynamic Resume</title>
+    <meta name="description" content="Professional CV showcasing career progression, skills, and achievements">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="language-selector">
+                <button data-lang="en">EN</button>
+                <button data-lang="de">DE</button>
+                <button data-lang="fr">FR</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <div id="personal-info" class="container"></div>
+        </section>
+
+        <section class="career-section">
+            <h2 class="section-title" data-i18n="career.title">Career Progression</h2>
+            <div class="carousel-container">
+                <div id="career-carousel" class="carousel"></div>
+                <button class="carousel-prev">&lt;</button>
+                <button class="carousel-next">&gt;</button>
+            </div>
+            <div id="career-timeline" class="timeline-container"></div>
+        </section>
+
+        <section class="education-section">
+            <h2 class="section-title" data-i18n="education.title">Academic Achievements</h2>
+            <div class="carousel-container">
+                <div id="education-carousel" class="carousel"></div>
+                <button class="carousel-prev">&lt;</button>
+                <button class="carousel-next">&gt;</button>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <h2 class="section-title" data-i18n="skills.title">Professional Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category" id="soft-skills">
+                    <h3 data-i18n="skills.soft">Soft Skills</h3>
+                    <div class="skills-list"></div>
+                </div>
+                <div class="skills-category" id="hard-skills">
+                    <h3 data-i18n="skills.hard">Hard Skills</h3>
+                    <div class="skills-list"></div>
+                </div>
+                <div class="skills-category" id="it-skills">
+                    <h3 data-i18n="skills.it">IT Skills</h3>
+                    <div class="skills-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <h2 class="section-title" data-i18n="projects.title">Key Projects</h2>
+            <div id="projects-grid" class="projects-container"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contact-section">
+            <h3 data-i18n="contact.title">Contact Information</h3>
+            <div id="contact-info"></div>
+            <form id="feedback-form" class="contact-form">
+                <input type="email" name="email" required placeholder="Your email">
+                <textarea name="message" required placeholder="Your message"></textarea>
+                <button type="submit" data-i18n="contact.send">Send Message</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script src="assets/js/yaml-parser.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/timeline.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

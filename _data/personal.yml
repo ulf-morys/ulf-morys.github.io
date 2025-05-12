@@ -1,0 +1,28 @@
+personal:
+  en:
+    name: "John Doe"
+    title: "Senior Finance Director"
+    summary: "Strategic finance leader with 15+ years of experience in global financial operations and corporate strategy"
+    location: "London, United Kingdom"
+    email: "john.doe@example.com"
+    phone: "+44 20 1234 5678"
+    linkedin: "linkedin.com/in/johndoe"
+    website: "johndoe.com"
+  de:
+    name: "John Doe"
+    title: "Senior Finanzdirektor"
+    summary: "Strategischer Finanzleiter mit über 15 Jahren Erfahrung in globalen Finanzoperationen und Unternehmensstrategie"
+    location: "London, Vereinigtes Königreich"
+    email: "john.doe@example.com"
+    phone: "+44 20 1234 5678"
+    linkedin: "linkedin.com/in/johndoe"
+    website: "johndoe.com"
+  fr:
+    name: "John Doe"
+    title: "Directeur Financier Senior"
+    summary: "Leader financier stratégique avec plus de 15 ans d'expérience dans les opérations financières mondiales et la stratégie d'entreprise"
+    location: "Londres, Royaume-Uni"
+    email: "john.doe@example.com"
+    phone: "+44 20 1234 5678"
+    linkedin: "linkedin.com/in/johndoe"
+    website: "johndoe.com"

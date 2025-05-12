@@ -1,0 +1,32 @@
+en:
+  title: "Senior Finance Director CV | Professional Portfolio"
+  description: "Professional portfolio and CV of an experienced Senior Finance Director with expertise in financial management, strategic planning, and leadership."
+  keywords: "Senior Finance Director, Financial Management, Strategic Planning, Leadership, Professional CV"
+  author: "Senior Finance Director"
+  og:
+    title: "Senior Finance Director CV | Professional Portfolio"
+    description: "Professional portfolio and CV of an experienced Senior Finance Director"
+    type: "website"
+    image: "assets/images/profile.jpg"
+
+de:
+  title: "Senior Finance Director Lebenslauf | Professionelles Portfolio"
+  description: "Professionelles Portfolio und Lebenslauf eines erfahrenen Senior Finance Directors mit Expertise in Finanzmanagement, strategischer Planung und Führung."
+  keywords: "Senior Finance Director, Finanzmanagement, Strategische Planung, Führung, Professioneller Lebenslauf"
+  author: "Senior Finance Director"
+  og:
+    title: "Senior Finance Director Lebenslauf | Professionelles Portfolio"
+    description: "Professionelles Portfolio und Lebenslauf eines erfahrenen Senior Finance Directors"
+    type: "website"
+    image: "assets/images/profile.jpg"
+
+fr:
+  title: "Directeur Financier Senior CV | Portfolio Professionnel"
+  description: "Portfolio professionnel et CV d'un Directeur Financier Senior expérimenté avec expertise en gestion financière, planification stratégique et leadership."
+  keywords: "Directeur Financier Senior, Gestion Financière, Planification Stratégique, Leadership, CV Professionnel"
+  author: "Directeur Financier Senior"
+  og:
+    title: "Directeur Financier Senior CV | Portfolio Professionnel"
+    description: "Portfolio professionnel et CV d'un Directeur Financier Senior expérimenté"
+    type: "website"
+    image: "assets/images/profile.jpg"

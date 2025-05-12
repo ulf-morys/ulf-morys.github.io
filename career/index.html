@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Details - Dynamic CV</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body class="career-detail">
+    <header class="page-header">
+        <nav class="navigation">
+            <a href="../" class="back-link">← Back to Main</a>
+            <div class="language-selector">
+                <button data-lang="en">EN</button>
+                <button data-lang="de">DE</button>
+                <button data-lang="fr">FR</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="career-content">
+        <div class="career-header">
+            <div class="company-info">
+                <div class="company-logo" id="companyLogo"></div>
+                <h1 class="company-name" id="companyName"></h1>
+            </div>
+            <div class="position-info">
+                <h2 class="position-title" id="positionTitle"></h2>
+                <p class="tenure" id="tenure"></p>
+            </div>
+        </div>
+
+        <section class="career-details">
+            <div class="scope-responsibilities">
+                <h3 data-translate="scope">Scope and Responsibilities</h3>
+                <div id="responsibilities"></div>
+            </div>
+
+            <div class="key-achievements">
+                <h3 data-translate="achievements">Key Achievements</h3>
+                <div id="achievements"></div>
+            </div>
+
+            <div class="star-examples">
+                <h3 data-translate="star">STAR Examples</h3>
+                <div id="starExamples"></div>
+            </div>
+        </section>
+
+        <nav class="position-navigation">
+            <a href="#" class="prev-position" id="prevPosition">← Previous Position</a>
+            <a href="#" class="next-position" id="nextPosition">Next Position →</a>
+        </nav>
+    </main>
+
+    <footer class="page-footer">
+        <div class="contact-info" id="contactInfo"></div>
+    </footer>
+
+    <script src="../assets/js/yaml-parser.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get position ID from URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const positionId = urlParams.get('id');
+
+            // Load career data and populate the page
+            loadCareerDetail(positionId);
+        });
+    </script>
+</body>
+</html>

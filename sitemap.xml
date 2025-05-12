@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yourdomain.github.io/dynamic-cv/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.github.io/dynamic-cv/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.github.io/dynamic-cv/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.github.io/dynamic-cv/?lang=fr"/>
+  </url>
+  <url>
+    <loc>https://yourdomain.github.io/dynamic-cv/career/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.github.io/dynamic-cv/career/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.github.io/dynamic-cv/career/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.github.io/dynamic-cv/career/?lang=fr"/>
+  </url>
+  <url>
+    <loc>https://yourdomain.github.io/dynamic-cv/education/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.github.io/dynamic-cv/education/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.github.io/dynamic-cv/education/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.github.io/dynamic-cv/education/?lang=fr"/>
+  </url>
+</urlset>

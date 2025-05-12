@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Details - Dynamic CV</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body class="education-detail">
+    <nav class="main-nav">
+        <div class="container">
+            <a href="../" class="nav-logo">Dynamic CV</a>
+            <div class="language-selector">
+                <button data-lang="en" class="active">EN</button>
+                <button data-lang="de">DE</button>
+                <button data-lang="fr">FR</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="education-content">
+            <div id="educationDetail" class="detail-container">
+                <!-- Dynamic content will be loaded here -->
+            </div>
+
+            <nav class="detail-navigation">
+                <button id="prevEducation" class="nav-button">&larr; Previous</button>
+                <a href="../" class="back-home">Back to Main Page</a>
+                <button id="nextEducation" class="nav-button">Next &rarr;</button>
+            </nav>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="contact-info">
+                <!-- Dynamic contact info will be loaded here -->
+            </div>
+        </div>
+    </footer>
+
+    <template id="educationTemplate">
+        <article class="education-entry">
+            <header class="entry-header">
+                <h1 class="institution-name"></h1>
+                <div class="education-period"></div>
+            </header>
+            
+            <div class="education-details">
+                <div class="location"></div>
+                <div class="course-description"></div>
+                <div class="diploma-details">
+                    <h2>Qualification</h2>
+                    <div class="degree"></div>
+                    <div class="grade"></div>
+                </div>
+            </div>
+        </article>
+    </template>
+
+    <script src="../assets/js/yaml-parser.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize education detail page
+            initializeEducationDetail();
+        });
+    </script>
+</body>
+</html>
