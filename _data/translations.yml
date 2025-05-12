@@ -1,53 +1,41 @@
 en:
-  nav:
-    home: "Home"
-    career: "Career"
-    education: "Education"
-    skills: "Skills"
-    contact: "Contact"
-  buttons:
-    details: "View Details"
-    next: "Next"
-    previous: "Previous"
-    back: "Back to Main"
-  sections:
-    career: "Professional Experience"
-    education: "Academic Background"
-    skills: "Professional Skills"
-    contact: "Get in Touch"
+  career:
+    title: "Career Progression"
+  education:
+    title: "Academic Achievements"
+  skills:
+    title: "Professional Skills"
+    soft: "Soft Skills"
+    hard: "Hard Skills"
+    it: "IT Skills"
+  contact:
+    title: "Contact Information"
+    send: "Send Message"
 
 de:
-  nav:
-    home: "Startseite"
-    career: "Karriere"
-    education: "Ausbildung"
-    skills: "Fähigkeiten"
-    contact: "Kontakt"
-  buttons:
-    details: "Details anzeigen"
-    next: "Weiter"
-    previous: "Zurück"
-    back: "Zur Hauptseite"
-  sections:
-    career: "Berufserfahrung"
-    education: "Akademischer Werdegang"
-    skills: "Berufliche Fähigkeiten"
-    contact: "Kontakt aufnehmen"
+  career:
+    title: "Karriere"
+  education:
+    title: "Ausbildung"
+  skills:
+    title: "Fähigkeiten"
+    soft: "Soft Skills"
+    hard: "Hard Skills"
+    it: "IT Skills"
+  contact:
+    title: "Kontaktinformationen"
+    send: "Nachricht senden"
 
 fr:
-  nav:
-    home: "Accueil"
-    career: "Carrière"
-    education: "Formation"
-    skills: "Compétences"
-    contact: "Contact"
-  buttons:
-    details: "Voir les détails"
-    next: "Suivant"
-    previous: "Précédent"
-    back: "Retour à l'accueil"
-  sections:
-    career: "Expérience professionnelle"
-    education: "Formation académique"
-    skills: "Compétences professionnelles"
-    contact: "Contactez-moi"
+  career:
+    title: "Carrière"
+  education:
+    title: "Formation"
+  skills:
+    title: "Compétences"
+    soft: "Compétences douces"
+    hard: "Compétences dures"
+    it: "Compétences informatiques"
+  contact:
+    title: "Informations de contact"
+    send: "Envoyer le message"

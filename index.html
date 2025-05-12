@@ -8,15 +8,11 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
         <nav class="nav-container">
-            <div class="language-selector">
-                <button data-lang="en">EN</button>
-                <button data-lang="de">DE</button>
-                <button data-lang="fr">FR</button>
-            </div>
         </nav>
     </header>
 
@@ -29,18 +25,18 @@
             <h2 class="section-title" data-i18n="career.title">Career Progression</h2>
             <div class="carousel-container">
                 <div id="career-carousel" class="carousel"></div>
-                <button class="carousel-prev">&lt;</button>
-                <button class="carousel-next">&gt;</button>
+                <button class="carousel-prev"><</button>
+                <button class="carousel-next">></button>
             </div>
-            <div id="career-timeline" class="timeline-container"></div>
+            <!-- <div id="career-timeline" class="timeline-container"></div> -->
         </section>
 
         <section class="education-section">
             <h2 class="section-title" data-i18n="education.title">Academic Achievements</h2>
             <div class="carousel-container">
                 <div id="education-carousel" class="carousel"></div>
-                <button class="carousel-prev">&lt;</button>
-                <button class="carousel-next">&gt;</button>
+                <button class="carousel-prev"><</button>
+                <button class="carousel-next">></button>
             </div>
         </section>
 
@@ -66,10 +62,11 @@
             <h2 class="section-title" data-i18n="projects.title">Key Projects</h2>
             <div id="projects-grid" class="projects-container"></div>
         </section>
-    </main>
+
+    </main> <!-- Close main-content here -->
 
     <footer class="footer">
-        <div class="contact-section">
+        <div class="contact-section container"> <!-- Added container class -->
             <h3 data-i18n="contact.title">Contact Information</h3>
             <div id="contact-info"></div>
             <form id="feedback-form" class="contact-form">
@@ -81,9 +78,7 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-    <script src="assets/js/yaml-parser.js"></script>
-    <script src="assets/js/carousel.js"></script>
-    <script src="assets/js/timeline.js"></script>
+    <!-- yaml-parser.js, carousel.js, timeline.js logic is now in main.js -->
     <script src="assets/js/main.js"></script>
 </body>
 </html>
