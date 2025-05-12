@@ -8,6 +8,7 @@ en:
     soft: "Soft Skills"
     hard: "Hard Skills"
     it: "IT Skills"
+    language: "Language Skills" # New translation
   contact:
     title: "Contact Information"
     send: "Send Message"
@@ -22,6 +23,7 @@ de:
     soft: "Soft Skills"
     hard: "Hard Skills"
     it: "IT Skills"
+    language: "Sprachkenntnisse" # New translation
   contact:
     title: "Kontaktinformationen"
     send: "Nachricht senden"
@@ -36,6 +38,7 @@ fr:
     soft: "Compétences douces"
     hard: "Compétences dures"
     it: "Compétences informatiques"
+    language: "Compétences linguistiques" # New translation
   contact:
     title: "Informations de contact"
     send: "Envoyer le message"

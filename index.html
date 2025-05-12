@@ -55,12 +55,22 @@
                     <h3 data-i18n="skills.it">IT Skills</h3>
                     <div class="skills-list"></div>
                 </div>
+                <div class="skills-category" id="language-skills">
+                    <h3 data-i18n="skills.language">Language Skills</h3>
+                    <div class="skills-list"></div>
+                </div>
             </div>
         </section>
 
         <section class="projects-section">
             <h2 class="section-title" data-i18n="projects.title">Key Projects</h2>
-            <div id="projects-grid" class="projects-container"></div>
+            <div class="carousel-container">
+                <div id="projects-carousel" class="carousel">
+                    <!-- Project items will be loaded here by renderProjects -->
+                </div>
+                <button class="carousel-prev"><</button>
+                <button class="carousel-next">></button>
+            </div>
         </section>
 
     </main> <!-- Close main-content here -->

@@ -331,7 +331,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const categories = [
                 { yamlKey: 'soft_skills', containerId: 'soft-skills' },
                 { yamlKey: 'hard_skills', containerId: 'hard-skills' },
-                { yamlKey: 'it_skills', containerId: 'it-skills' }
+                { yamlKey: 'it_skills', containerId: 'it-skills' },
+                { yamlKey: 'language_skills', containerId: 'language-skills' }
             ];
 
             categories.forEach(cat => {
@@ -377,33 +378,46 @@ document.addEventListener('DOMContentLoaded', function() {
         renderProjects() {
             console.log("Rendering Projects...");
             const projectsData = this.data.projects?.projects?.[this.currentLanguage];
-            const container = document.getElementById('projects-grid');
-            if (!container) { console.error("Element #projects-grid not found."); return; }
+            // Target the new carousel ID
+            const carouselContainer = document.getElementById('projects-carousel'); 
+            
+            if (!carouselContainer) { console.error("Element #projects-carousel not found."); return; }
 
             console.log("Projects data for rendering:", projectsData);
             if (!projectsData || !Array.isArray(projectsData)) {
-                container.innerHTML = '<p>Project data not available.</p>'; return;
+                carouselContainer.innerHTML = '<p>Project data not available.</p>'; return;
             }
 
-            container.innerHTML = projectsData.map(project => {
+            carouselContainer.innerHTML = projectsData.map((project, index) => {
                 const title = project.title || 'N/A';
                 const description = project.description || '';
-                const link = project.link || '#';
-                const image = project.image || '';
+                const company = project.company || ''; // Added company
+                const period = project.period || '';   // Added period
+                const achievements = project.achievements || []; // Added achievements
+                const link = project.link || '#'; 
+                const image = project.image || ''; 
                 const technologies = project.technologies || [];
 
+                let achievementsHTML = '';
+                if (achievements.length > 0) {
+                    achievementsHTML = '<ul>' + achievements.map(ach => `<li>${ach}</li>`).join('') + '</ul>';
+                }
+
+                // Use carousel-item class for styling consistency
                 return `
-                    <div class="project-card">
-                        ${image ? `<img src="${image}" alt="${title}" class="project-image">` : ''}
-                        <div class="project-content">
+                    <div class="carousel-item ${index === 0 ? 'active' : ''}" data-index="${index}">
+                        <div class="project-card">
+                            ${image ? `<img src="${image}" alt="${title}" class="project-image">` : ''}
                             <h3>${title}</h3>
+                            ${company ? `<h4>${company} ${period ? `(${period})` : ''}</h4>` : ''}
                             ${description ? `<p>${description}</p>` : ''}
+                            ${achievementsHTML}
                             ${technologies.length > 0 ? `<p class="technologies"><strong>Technologies:</strong> ${technologies.join(', ')}</p>` : ''}
                             ${link !== '#' ? `<a href="${link}" target="_blank" class="project-link">View Project</a>` : ''}
                         </div>
                     </div>`;
             }).join('');
-            console.log("Projects section rendered.");
+            console.log("Projects carousel rendered.");
         },
 
         renderContactInfo() {
@@ -460,23 +474,52 @@ document.addEventListener('DOMContentLoaded', function() {
         // --- Carousel Logic ---
         moveCarousel(containerId, direction) {
             const carousel = document.getElementById(containerId);
-            if (!carousel) { console.warn(`Carousel container #${containerId} not found for move.`); return; }
+            if (!carousel) {
+                console.warn(`Carousel element #${containerId} not found for move.`);
+                return;
+            }
             const items = carousel.querySelectorAll('.carousel-item');
             if (items.length === 0) return;
 
-            const activeItem = carousel.querySelector('.carousel-item.active');
-            let currentIndex = activeItem ? Array.from(items).indexOf(activeItem) : 0;
-            let nextIndex;
-
-            if (direction === 'next') {
-                nextIndex = (currentIndex + 1) % items.length;
-            } else {
-                nextIndex = (currentIndex - 1 + items.length) % items.length;
+            // Calculate the width of a single carousel item (including margin)
+            // This assumes all items have roughly the same width for consistent scrolling
+            const itemStyle = items[0] ? window.getComputedStyle(items[0]) : null;
+            const itemWidth = items[0] ? items[0].offsetWidth + (itemStyle ? parseFloat(itemStyle.marginRight) : 0) : 0;
+            
+            if (itemWidth === 0) {
+                console.warn("Carousel item width is 0, cannot scroll.");
+                return;
             }
 
-            if (activeItem) activeItem.classList.remove('active');
-            items[nextIndex].classList.add('active');
-            console.log(`Moved carousel ${containerId} to index ${nextIndex}`);
+            let currentScrollLeft = carousel.scrollLeft;
+            let targetScrollLeft;
+
+            if (direction === 'next') {
+                targetScrollLeft = currentScrollLeft + itemWidth;
+                // Snap to the next item if not perfectly aligned
+                targetScrollLeft = Math.ceil(targetScrollLeft / itemWidth) * itemWidth;
+                if (targetScrollLeft >= carousel.scrollWidth - carousel.clientWidth) {
+                    // If at the end or beyond, go to the start (optional, or disable button)
+                    // targetScrollLeft = 0; // Loop to start
+                }
+            } else { // direction === 'prev'
+                targetScrollLeft = currentScrollLeft - itemWidth;
+                // Snap to the previous item
+                targetScrollLeft = Math.floor(targetScrollLeft / itemWidth) * itemWidth;
+                if (targetScrollLeft < 0) {
+                    // If at the beginning or before, go to the end (optional, or disable button)
+                    // targetScrollLeft = carousel.scrollWidth - carousel.clientWidth; // Loop to end
+                }
+            }
+            
+            // Ensure targetScrollLeft is within bounds
+            targetScrollLeft = Math.max(0, Math.min(targetScrollLeft, carousel.scrollWidth - carousel.clientWidth));
+
+            carousel.scrollTo({
+                left: targetScrollLeft,
+                behavior: 'smooth'
+            });
+            console.log(`Scrolled carousel ${containerId} to ${targetScrollLeft}`);
         },
 
         // --- Form Handling ---

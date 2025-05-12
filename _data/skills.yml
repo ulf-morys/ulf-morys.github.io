@@ -120,3 +120,62 @@ it_skills:
     - name: Power BI
       proficiency: 5
       description: Visualisation et reporting de données avancés
+
+language_skills:
+  en:
+    - name: German
+      proficiency: 6
+      description: Native
+    - name: English
+      proficiency: 6
+      description: Native
+    - name: French
+      proficiency: 5
+      description: Fluent
+    - name: Spanish
+      proficiency: 3
+      description: Conversational
+    - name: Dutch
+      proficiency: 2
+      description: Basic
+    - name: Russian
+      proficiency: 1
+      description: Beginner
+  de:
+    - name: Deutsch
+      proficiency: 6
+      description: Muttersprache
+    - name: Englisch
+      proficiency: 6
+      description: Muttersprache
+    - name: Französisch
+      proficiency: 5
+      description: Fließend
+    - name: Spanisch
+      proficiency: 3
+      description: Konversationssicher
+    - name: Niederländisch
+      proficiency: 2
+      description: Grundkenntnisse
+    - name: Russisch
+      proficiency: 1
+      description: Anfänger
+  fr:
+    - name: Allemand
+      proficiency: 6
+      description: Langue maternelle
+    - name: Anglais
+      proficiency: 6
+      description: Langue maternelle
+    - name: Français
+      proficiency: 5
+      description: Courant
+    - name: Espagnol
+      proficiency: 3
+      description: Conversation
+    - name: Néerlandais
+      proficiency: 2
+      description: Notions de base
+    - name: Russe
+      proficiency: 1
+      description: Débutant

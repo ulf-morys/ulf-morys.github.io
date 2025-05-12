@@ -275,19 +275,33 @@
 }
 
 /* Carousel */
-.carousel {
-    position: relative;
-    overflow: hidden;
+.carousel-container { /* This is the element with prev/next buttons */
+    position: relative; /* For positioning nav buttons */
 }
 
-.carousel-container {
-    display: flex;
-    transition: transform 0.3s ease;
+.carousel {
+    display: flex; /* Arrange items horizontally */
+    overflow-x: auto; /* Allow horizontal scrolling if items exceed width */
+    scroll-snap-type: x mandatory; /* Optional: for snap scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    padding-bottom: 1rem; /* Space for scrollbar if it appears */
+    margin-bottom: 1rem; /* Space below carousel */
 }
 
 .carousel-item {
-    flex: 0 0 100%;
-    padding: 1rem;
+    flex: 0 0 auto; /* Allow items to take their natural width */
+    width: 80%; /* Or a fixed width like 300px, adjust as needed */
+    max-width: 400px; /* Max width for an item */
+    margin-right: 1rem; /* Space between items */
+    scroll-snap-align: start; /* Snap to start of item */
+    background-color: var(--card-bg); /* Give items a background */
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.carousel-item:last-child {
+    margin-right: 0;
 }
 
 .carousel-nav {
